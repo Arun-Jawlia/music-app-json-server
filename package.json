@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "json-server": "^0.17.4"
+  },
+  "name": "music-app-json-server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json --port 8002"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
